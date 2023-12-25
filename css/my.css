@@ -1,0 +1,41 @@
+.center
+{
+    text-align: center;
+}
+
+.text-decoration-none
+{
+    text-underline-position : none;
+}
+
+.fs-1 {font-size: 1em;}
+.fs-2 {font-size: 2em;}
+
+.summary-heading
+{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.red-alert
+{
+	font-weight: bold;
+	color: red;
+}
+
+.orange-alert
+{
+	color: #F19C00;
+	font-weight: bold;
+}
+
+.green-alert
+{
+	color: green;
+	font-weight: bold;
+}
+
+@media only print {
+	#mbmenu {display: none;}
+}
